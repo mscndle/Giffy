@@ -11,16 +11,13 @@
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="11dp"
-        android:layout_marginLeft="11dp"
-        android:layout_marginRight="11dp"
         fab:menu_animationDelayPerItem="55"
         fab:menu_backgroundColor="#CCFFFFFF"
         fab:menu_buttonSpacing="0dp"
         fab:menu_colorNormal="#da3c2f"
         fab:menu_colorPressed="#dc4b3f"
         fab:menu_colorRipple="#99d4d4d4"
-        fab:menu_fab_label="Refresh Trending GIFs"
+        fab:menu_fab_label="Refresh"
         fab:menu_fab_size="normal"
         fab:menu_icon="@drawable/ic_cached_white_24dp"
         fab:menu_labels_colorNormal="#333"
@@ -50,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_done_white_24dp"
-            fab:fab_label="15"
+            fab:fab_label="Get 15 gifs"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
@@ -58,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_done_white_24dp"
-            fab:fab_label="30"
+            fab:fab_label="Get 30 gifs"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
@@ -66,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_done_white_24dp"
-            fab:fab_label="Random"
+            fab:fab_label="Get random gifs"
             fab:fab_size="mini" />
 
     </com.github.clans.fab.FloatingActionMenu>

@@ -1,4 +1,4 @@
-package com.mcondle.giffy.ui;
+package com.mcondle.giffy.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

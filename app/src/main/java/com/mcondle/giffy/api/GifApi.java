@@ -26,16 +26,16 @@ public class GifApi {
         apiService = this.retrofit.create(GifService.class);
     }
 
-    public Call<GifListResponse> getTrendingGifs() {
-        return apiService.getTrendingGifs(API_KEY, getRandomLimit());
-    }
-
     public Call<GifListResponse> getTrendingGifs(int count) {
         return apiService.getTrendingGifs(API_KEY, count);
     }
 
-    private int getRandomLimit() {
-        return (int )(Math.random() * 50 + 1);
+    public Call<GifListResponse> getTrendingStickers(int count) {
+        return apiService.getTrendingStickers(API_KEY, count);
+    }
+
+    public Call<GifListResponse> getRandomGif() {
+        return apiService.getRandomGif(API_KEY);
     }
 
 }

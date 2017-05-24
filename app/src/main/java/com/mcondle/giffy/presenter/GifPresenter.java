@@ -1,5 +1,6 @@
-package com.mcondle.giffy.ui;
+package com.mcondle.giffy.presenter;
 
+import com.mcondle.giffy.GiffyContract;
 import com.mcondle.giffy.api.GifAdapter;
 import com.mcondle.giffy.api.GifApi;
 import com.mcondle.giffy.model.GifData;
@@ -17,13 +18,13 @@ import retrofit2.Response;
  * Created by mandeep.condle on 5/16/17.
  */
 
-public class GifListPresenter implements GifListContract.Presenter {
+public class GifPresenter implements GiffyContract.Presenter {
 
     private GifAdapter gifAdapter;
-    private GifListContract.View gifListView;
+    private GiffyContract.View gifListView;
 
-    public GifListPresenter(GifAdapter gifAdapter,
-                            GifListContract.View gifListView) {
+    public GifPresenter(GifAdapter gifAdapter,
+                        GiffyContract.View gifListView) {
         this.gifAdapter = gifAdapter;
         this.gifListView = gifListView;
     }

@@ -1,10 +1,10 @@
-package com.mcondle.giffy.ui;
+package com.mcondle.giffy;
 
 /**
  * Created by mandeep.condle on 5/16/17.
  */
 
-public interface GifListContract {
+public interface GiffyContract {
 
     interface View {
         void showLoading(boolean show);
@@ -18,4 +18,5 @@ public interface GifListContract {
     interface Navigator {
         void launchDetailView(String url);
     }
+
 }
